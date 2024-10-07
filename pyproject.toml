@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pythontesturls"
+version = "0.1.0"
+description = ""
+authors = ["Tretyakov <timofey.tretyakov.96@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
